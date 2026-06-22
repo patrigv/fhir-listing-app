@@ -37,8 +37,8 @@
 
 
 <main>
-  <div class="max-w-md mx-auto my-10">
-    <img src={clinic_logo} height="100">
+<div class="max-w-5xl mx-auto my-10">    
+  <img src={clinic_logo} height="100">
     
     <h1 class="text-2xl"> Welcome again, Dr. Doe </h1>
     

@@ -140,4 +140,8 @@
         color: red;
         font-size: 0.8em;
     }
+    .form-container {
+        background-color: #f5f5dc;
+        color: #1a1a1a;
+    }
 </style>

@@ -94,4 +94,7 @@
         width: 6rem;
         height: 2.5rem  
     }
+    .tr {
+        color: #1a1a1a;
+    }
 </style>
