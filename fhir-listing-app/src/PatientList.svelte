@@ -141,7 +141,7 @@
                         <td>{patient.resource.telecom?.[0]?.value || ''}</td>
                         <td>
                             <button id="edit-button" on:click={() => handleEdit(patient.resource.id)}>
-                                <img src="/public/images/edit.png" alt="Edit" height="20" width="20">
+                                <img src="public/images/edit.png" alt="Edit" height="20" width="20">
                                 Edit
                             </button>
                         </td>
