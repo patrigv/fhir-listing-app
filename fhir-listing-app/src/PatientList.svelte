@@ -190,4 +190,13 @@
     align-items: center;
     margin-top: 1rem;
   }
+  tr#header-table {
+  background-color: rgb(248, 241, 232);
+  color: #2d5f5f;
+    }
+
+ tbody tr {
+  background-color: #eef5f5;
+  color: #1a1a1a;
+ }
 </style>
