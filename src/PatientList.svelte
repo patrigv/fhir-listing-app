@@ -3,7 +3,6 @@
     import axios from 'axios';
     import { onMount } from 'svelte';
     import EditPatient from './EditPatient.svelte';
-    import patientList from './assets/images/edit.png';
 
     let patients = [];
     let editingPatientId = null;
@@ -142,7 +141,7 @@
                         <td>{patient.resource.telecom?.[0]?.value || ''}</td>
                         <td>
                             <button id="edit-button" on:click={() => handleEdit(patient.resource.id)}>
-                                <img src="/src/assets/images/edit.png" alt="Edit" height="20" width="20">
+                                <img src="public/images/edit.png" alt="Edit" height="20" width="20">
                                 Edit
                             </button>
                         </td>
