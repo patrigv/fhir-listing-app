@@ -1,7 +1,6 @@
 <script lang="ts">
   import PatientList from './PatientList.svelte';
   import CreatePatient from './CreatePatient.svelte';
-  import clinic_logo from './assets/images/clinic_logo.png';
 
   let tabs = [
     { name: "Show my patients",
@@ -38,7 +37,7 @@
 
 <main>
 <div class="max-w-5xl mx-auto my-10">    
-  <img src={clinic_logo} height="100">
+  <img src="/images/clinic_logo.png" height="100">
     
     <h1 class="text-2xl"> Welcome again, Dr. Doe </h1>
     
